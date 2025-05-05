@@ -3,7 +3,7 @@ import { join } from "path";
 import { readFileSync } from "fs";
 import express from "express";
 import serveStatic from "serve-static";
-import shopify from "./shopify.js";
+//import shopify from "./shopify.js";
 import PrivacyWebhookHandlers from "./privacy.js";
 import { AppRoutes } from "./backend/presentation/routes.js";
 import cors from "cors";

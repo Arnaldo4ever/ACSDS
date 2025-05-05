@@ -1,4 +1,4 @@
-import shopify from "../../../../shopify.js";
+//import shopify from "../../../../shopify.js";
 //Clase base con métodos útiles para usen todos los datasources de Shopify con GrapthQL
 export class ShopifyBaseDatasource {
     shop; //Por ejemplo "upango2b2.myshopify.com"

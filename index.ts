@@ -4,7 +4,7 @@ import { readFileSync } from "fs";
 import express from "express";
 import serveStatic from "serve-static";
 
-import shopify from "./shopify.js";
+//import shopify from "./shopify.js";
 import PrivacyWebhookHandlers from "./privacy.js";
 import { AppRoutes } from "./backend/presentation/routes.js";
 import cors from "cors";
@@ -13,7 +13,7 @@ const PORT = parseInt(
   process.env.BACKEND_PORT || process.env.PORT || "3000",
   10
 );
-
+/*
 const STATIC_PATH =
   process.env.NODE_ENV === "production"
     ? `${process.cwd()}/frontend/dist`
@@ -57,3 +57,4 @@ app.use("/*", shopify.ensureInstalledOnShop(), async (_req, res, _next) => {
 });
 
 app.listen(PORT);
+*/

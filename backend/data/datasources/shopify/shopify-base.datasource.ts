@@ -1,5 +1,5 @@
 import { GraphqlClient} from '@shopify/shopify-api/lib/clients/graphql/graphql_client.js';
-import shopify from "../../../../shopify.js";
+//import shopify from "../../../../shopify.js";
 
 //Clase base con métodos útiles para usen todos los datasources de Shopify con GrapthQL
 export abstract class ShopifyBaseDatasource {
