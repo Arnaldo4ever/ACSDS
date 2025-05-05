@@ -8,7 +8,8 @@
     "debug": "node --inspect-brk index.js",
     "dev": "cross-env NODE_ENV=development nodemon --exec node --loader ts-node/esm index.ts --ignore ./frontend ",
     "serve": "npm run build && cross-env NODE_ENV=production node dist/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "start": "node dist/index.js"
   },
   "type": "module",
   "engines": {
