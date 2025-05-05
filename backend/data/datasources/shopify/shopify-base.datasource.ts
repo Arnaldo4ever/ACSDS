@@ -8,13 +8,13 @@ export abstract class ShopifyBaseDatasource {
         this.shop = shop;
     }
 
-    async getGraphqlClient () : Promise<GraphqlClient> {
+    //async getGraphqlClient () : Promise<GraphqlClient> {
         //Si no estamos conectados al admin, podemos recuperar un token de sesión "ofline" que está almacenado en el database.sqlite
-        const sesionGuardadaParaShop = await shopify.config.sessionStorage.findSessionsByShop(this.shop);
-        var session = sesionGuardadaParaShop[0];
-        const graphqlClient = new shopify.api.clients.Graphql({ session: session });
-        return graphqlClient;
-    }
+        //const sesionGuardadaParaShop = await shopify.config.sessionStorage.findSessionsByShop(this.shop);
+        //var session = sesionGuardadaParaShop[0];
+        //const graphqlClient = new shopify.api.clients.Graphql({ session: session });
+        //return graphqlClient;
+    //}
     
     // checkUserErrorsInAdminApiRequest(responserDataObject){
     //     const userErrors = responserDataObject.userErrors;
