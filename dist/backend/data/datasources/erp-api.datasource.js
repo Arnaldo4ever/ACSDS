@@ -19,34 +19,13 @@ export class ERPApiDataSource {
                 }
             });
             // Manejar diferentes estructuras de respuesta
-            if (response.data?.error) {
+            if (response.data.error) {
                 throw new Error(`Error en la API de ERP: ${JSON.stringify(response.data.error)}`);
             }
-            // Verificar y devolver el resultado
-            if (response && response.data && response.data.result !== undefined) {
-                return response.data.result;
-            }
-            else {
-                console.warn('Respuesta de la API sin estructura esperada:', response);
-                return response;
-            }
+            return response.data.result;
         }
         catch (error) {
-            console.error('Error en la solicitud a la API de ERP:', error.message);
-            // Manejar diferentes tipos de errores
-            if (error.response) {
-                // La solicitud fue hecha y el servidor respondió con un código de estado
-                console.error('Datos de error:', error.response.data);
-                console.error('Código de estado:', error.response.status);
-            }
-            else if (error.request) {
-                // La solicitud fue hecha pero no se recibió respuesta
-                console.error('No se recibió respuesta:', error.request);
-            }
-            else {
-                // Algo sucedió al configurar la solicitud
-                console.error('Error de configuración:', error.message);
-            }
+            console.error('Error en la solicitud a la API de ERP:', error);
             throw error;
         }
     }

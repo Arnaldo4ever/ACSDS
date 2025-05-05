@@ -27,16 +27,15 @@ export class ERPRepository {
                         offset: offset
                     }
                 ]
-            }, {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Cookie': sessionId || ''
-                }
             });
+            // Verificar si hay error en la respuesta
+            if (response.data.error) {
+                throw new Error(`Error en búsqueda ERP: ${response.data.error.message}`);
+            }
             return response.data.result || [];
         }
         catch (error) {
-            logger.error(`Error al buscar en modelo ${model}:`, error);
+            logger.error(`Error en searchRead para modelo ${model}:`, error);
             throw error;
         }
     }

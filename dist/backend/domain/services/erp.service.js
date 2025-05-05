@@ -1,10 +1,8 @@
-import { ERPRepository } from '../../data/repositories/erp.repository';
+import { ERPRepository } from '../../data/repositories/erp.repository.js';
 export class ERPService {
     repository;
     constructor() {
-        console.log('Constructor called, repository type:', typeof ERPRepository);
         this.repository = new ERPRepository();
-        console.log('Repository methods:', Object.keys(this.repository));
     }
     // Métodos para órdenes de venta
     async getSaleOrders(fields = ['name', 'state', 'amount_total'], domain = [], limit = 10, offset = 0) {
