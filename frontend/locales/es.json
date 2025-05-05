@@ -1,0 +1,82 @@
+{
+  "HomePage": {
+    "heading": "Funcionalidad UPANGO",
+    "appByUpango": "App desarrollada por <UpangoLink>UPANGO</UpangoLink>",
+    "appDescription": "App para proporcionar la funcionalidad necesaria para los desarrollos personalizados del B2B.",
+    "title": "UPANGO APP",
+    "upangoAltText": "UPANGO"
+  },
+  "NavigationMenu": {
+    "pageName": "Page name"
+  },
+  "NotFound": {
+    "description": "Check the URL and try again, or use the search bar to find what you need.",
+    "heading": "There is no page at this address"
+  },
+  "PageName": {
+    "body": "Body",
+    "heading": "Heading",
+    "primaryAction": "Primary action",
+    "secondaryAction": "Secondary action",
+    "title": "Page name"
+  },
+  "Metafields": {
+    "title": "Creador de Metafields",
+    "create_cron": "Crear tarea cron",
+    "Buttons": {
+      "create_metafield": "Crear Metafields"
+    },
+    "Info_messages": {
+      "creating_metafields": "Creando metafields...",
+      "creating_cron_task": "Creando tarea cron..."
+    },
+    "Error_messages": {
+      "metafield_get_error": "No se ha podido obtener el estado de los metafields",
+      "backend_error": "Algo fue mal intentando contactar con el backend de la aplicación",
+      "metafield_create_error": "Los metafields no han podido ser creados",
+      "cron_task_error": "No se pudo crear la tarea cron"
+    },
+    "application_metafields": "Metafields de la Aplicación",
+    "Metafield_rows": {
+      "name": "Nombre",
+      "namespace": "Namespace",
+      "key": "Clave",
+      "description": "Descripción",
+      "owner_type": "Tipo de propietario",
+      "status": "Estado"
+    },
+    "application_metaobjects": "Metaobjetos de la Aplicación",
+    "Metaobject_rows": {
+      "name": "Nombre",
+      "type": "Tipo",
+      "description": "Descripción",
+      "status": "Estado"
+    },
+    "created": "Creado",
+    "missing": "No creado"
+  },
+  "Settings": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "type": "Tipo",
+    "value": "Valor",
+    "save_changes": "Guardar Cambios",
+    "settings_missing": "Ajustes no encontrados",
+    "install_settings": "Instalar Ajustes",
+    "no_settings": "Parece que no hay ajustes! Desea ejecutar el instalador?",
+    "install_updates": "Instalar Actualizaciones",
+    "updates_available": "Actualizaciones disponibles",
+    "updates_text": "Hay actualizaciones disponibles, desea instalarlas?"
+  },
+  "Transformer": {
+    "error": "Algo fue mal intentando obtener los datos del transformador de carrito.",
+    "loading": "Cargando datos del cart transformer...",
+    "id_value": "Valores para el Cart Transformer con ID: ",
+    "save": "Guardar",
+    "explanation": {
+      "line1": "El metafield se tiene que escribir en formato: nombre,valor;nombre,valor...",
+      "line2": "Es decir, nombre del recargo, separado por \",\" con su valor. Si quiere añadir más de un recargo, los separas por \";\"",
+      "line3": "Por ejemplo, 3 recargos, \"normal\", \"reducido\" y \"superreducido\" serían: \"normal,0.1;reducido,0.1;superreducido,0.1\""
+    }
+  }
+}

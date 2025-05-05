@@ -1,0 +1,22 @@
+{
+  "settings": [
+    {
+      "name": "recargo_id",
+      "description": "ID de la variante del recargo de equivalencia",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "cart_transformer_id",
+      "description": "ID Del Cart Transformer Instalado",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "cart_transfomer_metafield",
+      "description": "NO MODIFICAR. Valor del metafield del Cart Transformer.",
+      "type": "string",
+      "value": "normal,0.1;reducido,0.1;superreducido,0.1"
+    }
+  ]
+}

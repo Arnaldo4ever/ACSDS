@@ -1,0 +1,82 @@
+{
+  "HomePage": {
+    "heading": "UPANGO functionality",
+    "appByUpango": "App developed by <UpangoLink>UPANGO</UpangoLink>",
+    "appDescription": "App to provide the necessary functionality for B2B custom developments.",
+    "title": "UPANGO APP",
+    "upangoAltText": "UPANGO"
+  },
+  "NavigationMenu": {
+    "pageName": "Page name"
+  },
+  "NotFound": {
+    "description": "Check the URL and try again, or use the search bar to find what you need.",
+    "heading": "There is no page at this address"
+  },
+  "PageName": {
+    "body": "Body",
+    "heading": "Heading",
+    "primaryAction": "Primary action",
+    "secondaryAction": "Secondary action",
+    "title": "Page name"
+  },
+  "Metafields": {
+    "title": "Metafield Creator",
+    "create_cron": "Create Cron Tasks",
+    "Buttons": {
+      "create_metafield": "Create Metafields"
+    },
+    "Info_messages": {
+      "creating_metafields": "Creating metafields...",
+      "creating_cron_task": "Creating cron task..."
+    },
+    "Error_messages": {
+      "metafield_get_error": "Could not get the metafield's status",
+      "backend_error": "There was an error when trying to connect with the application's backend",
+      "metafield_create_error": "The metafields could not be created",
+      "cron_task_error": "Could not create the cron task"
+    },
+    "application_metafields": "Application Metafields",
+    "Metafield_rows": {
+      "name": "Name",
+      "namespace": "Namespace",
+      "key": "Key",
+      "description": "Description",
+      "owner_type": "Owner Type",
+      "status": "Status"
+    },
+    "application_metaobjects": "Application Metaobjects",
+    "Metaobject_rows": {
+      "name": "Name",
+      "type": "Type",
+      "description": "Description",
+      "status": "Status"
+    },
+    "created": "Created",
+    "missing": "Missing"
+  },
+  "Settings": {
+    "name": "Name",
+    "description": "Description",
+    "type": "Type",
+    "value": "Value",
+    "save_changes": "Save Changes",
+    "settings_missing": "Settings not found",
+    "install_settings": "Install Settings",
+    "no_settings": "It looks like there are no settings! Would you like to run the installer?",
+    "install_updates": "Install Updates",
+    "updates_available": "Updates Available",
+    "updates_text": "There are updates available for the app, do you wish to install them?"
+  },
+  "Transformer": {
+    "error": "Something went wrong trying to get the Cart Transformer's data.",
+    "loading": "Loading cart transformer data...",
+    "id_value": "Show values for Cart Transformer with ID: ",
+    "save": "Save",
+    "explanation": {
+      "line1": "You need to write a string that follows this format: name,value;name,value;name,value...",
+      "line2": "Meaning, the name of the tax, separated by \",\" with its value. If you wish to add different values for the tax, you will need to separate them with \";\", only one of these will be applied at once.",
+      "line3": "For example, this tax has 3 values, \"normal\", \"reducido\" y \"superreducido\", which would be written: \"normal,0.1;reducido,0.1;superreducido,0.1\""
+    }
+  }
+}

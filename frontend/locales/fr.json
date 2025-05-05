@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "heading": "Fonctionnalité UPANGO",
+    "appByUpango": "Application développée par <UpangoLink>UPANGO</UpangoLink>",
+    "appDescription": "Application pour fournir la fonctionnalité nécessaire pour les développements personnalisés de B2B.",
+    "title": "UPANGO APP",
+    "upangoAltText": "UPANGO"
+  },
+  "NavigationMenu": {
+    "pageName": "Nom de la page"
+  },
+  "NotFound": {
+    "description": "Vérifiez l'URL et réessayez, ou utilisez la barre de recherche pour trouver ce dont vous avez besoin.",
+    "heading": "Il n'y a pas de page à cette adresse"
+  },
+  "PageName": {
+    "body": "Corps",
+    "heading": "Titre",
+    "primaryAction": "Action principale",
+    "secondaryAction": "Action secondaire",
+    "title": "Nom de la page"
+  }
+}
